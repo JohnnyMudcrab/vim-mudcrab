@@ -39,7 +39,7 @@ hi Comment        cterm=NONE    ctermfg=244 ctermbg=NONE
 hi Todo           cterm=NONE    ctermfg=245 ctermbg=NONE
 hi Boolean        cterm=NONE    ctermfg=148 ctermbg=NONE
 hi String         cterm=NONE    ctermfg=180 ctermbg=NONE
-hi Identifier     cterm=NONE    ctermfg=148 ctermbg=NONE
+hi Identifier     cterm=NONE    ctermfg=150 ctermbg=NONE
 hi Function       cterm=NONE    ctermfg=255 ctermbg=NONE
 hi Type           cterm=NONE    ctermfg=110 ctermbg=NONE
 hi Statement      cterm=NONE    ctermfg=110 ctermbg=NONE
