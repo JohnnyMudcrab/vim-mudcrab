@@ -8,6 +8,10 @@ endif
 
 let g:colors_name = "mudcrab"
 
+" coorperate design
+" green: 150
+" blue: 100
+" purple: 100
 
 " Vim >= 7.0 specific colors
 if version >= 700
@@ -61,3 +65,8 @@ hi def link NERDTreeOpenable String
 hi def link NERDTreeCloseable NERDTreeOpenable
 hi def link NERDTreeCWD String
 hi def link NERDTreePart String
+
+hi! DiffAdd       cterm=NONE    ctermfg=62  ctermbg=150   gui=NONE   guifg=#5f5fd7 guibg=NONE
+hi! DiffChange    cterm=NONE    ctermfg=62  ctermbg=NONE   gui=NONE   guifg=#5f5fd7 guibg=NONE
+hi! DiffDelete    cterm=NONE    ctermfg=62  ctermbg=174   gui=NONE   guifg=#5f5fd7 guibg=NONE
+hi! DiffText      cterm=NONE    ctermfg=62  ctermbg=NONE   gui=NONE   guifg=#5f5fd7 guibg=NONE
